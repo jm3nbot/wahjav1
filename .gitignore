@@ -1,0 +1,8 @@
+.DS_Store
+**/.DS_Store
+.playwright-cli/
+tmp/
+node_modules/
+.env
+.env.*
+*.log

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">TAMM app icon</title>
+  <desc id="desc">A simplified teal TAMM app style mark.</desc>
+  <rect width="512" height="512" rx="92" fill="#ffffff"/>
+  <g fill="none" stroke="#17a0a1" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M82 256c42-58 96-78 160-44l48 26c64 34 116 13 154-42"/>
+    <path d="M82 256c40 10 75 33 105 69 34 42 82 42 110 0 21-31 30-73 23-126"/>
+    <path d="M206 160h79c30 0 50 16 57 45l28 116c8 34 42 46 70 23 28-24 49-58 57-102"/>
+    <path d="M126 258l72 75"/>
+    <path d="M243 304c34 31 72 30 113-3"/>
+  </g>
+</svg>

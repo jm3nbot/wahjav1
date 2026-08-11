@@ -1,0 +1,546 @@
+window.OFFICIAL_DRIVING_SIGNS = {
+  "signs": [
+    {
+      "type": "warning",
+      "label": "Right hand bend",
+      "image": "assets/driving-pdf/warning-right-hand-bend.png",
+      "source": "Driving.pdf p.93"
+    },
+    {
+      "type": "warning",
+      "label": "Left hand bend",
+      "image": "assets/driving-pdf/warning-left-hand-bend.png",
+      "source": "Driving.pdf p.93"
+    },
+    {
+      "type": "warning",
+      "label": "Double bend first right",
+      "image": "assets/driving-pdf/warning-double-bend-first-right.png",
+      "source": "Driving.pdf p.93"
+    },
+    {
+      "type": "warning",
+      "label": "Double bend first left",
+      "image": "assets/driving-pdf/warning-double-bend-first-left.png",
+      "source": "Driving.pdf p.93"
+    },
+    {
+      "type": "warning",
+      "label": "Steep downhill",
+      "image": "assets/driving-pdf/warning-steep-downhill.png",
+      "source": "Driving.pdf p.93"
+    },
+    {
+      "type": "warning",
+      "label": "Steep uphill",
+      "image": "assets/driving-pdf/warning-steep-uphill.png",
+      "source": "Driving.pdf p.93"
+    },
+    {
+      "type": "warning",
+      "label": "Road narrows on both sides",
+      "image": "assets/driving-pdf/warning-road-narrows-on-both-sides.png",
+      "source": "Driving.pdf p.94"
+    },
+    {
+      "type": "warning",
+      "label": "Road narrows from right",
+      "image": "assets/driving-pdf/warning-road-narrows-from-right.png",
+      "source": "Driving.pdf p.94"
+    },
+    {
+      "type": "warning",
+      "label": "Road narrows from left",
+      "image": "assets/driving-pdf/warning-road-narrows-from-left.png",
+      "source": "Driving.pdf p.94"
+    },
+    {
+      "type": "warning",
+      "label": "Tunnel ahead",
+      "image": "assets/driving-pdf/warning-tunnel-ahead.png",
+      "source": "Driving.pdf p.94"
+    },
+    {
+      "type": "warning",
+      "label": "Right carriageway closed",
+      "image": "assets/driving-pdf/warning-right-carriageway-closed.png",
+      "source": "Driving.pdf p.94"
+    },
+    {
+      "type": "warning",
+      "label": "Dual carriageway ends",
+      "image": "assets/driving-pdf/warning-dual-carriageway-ends.png",
+      "source": "Driving.pdf p.94"
+    },
+    {
+      "type": "warning",
+      "label": "Diversion",
+      "image": "assets/driving-pdf/warning-diversion.png",
+      "source": "Driving.pdf p.94"
+    },
+    {
+      "type": "warning",
+      "label": "Opening or swing bridge ahead",
+      "image": "assets/driving-pdf/warning-opening-or-swing-bridge-ahead.png",
+      "source": "Driving.pdf p.94"
+    },
+    {
+      "type": "warning",
+      "label": "Dip ahead",
+      "image": "assets/driving-pdf/warning-dip-ahead.png",
+      "source": "Driving.pdf p.95"
+    },
+    {
+      "type": "warning",
+      "label": "Hump ahead",
+      "image": "assets/driving-pdf/warning-hump-ahead.png",
+      "source": "Driving.pdf p.95"
+    },
+    {
+      "type": "warning",
+      "label": "Slippery road",
+      "image": "assets/driving-pdf/warning-slippery-road.png",
+      "source": "Driving.pdf p.95"
+    },
+    {
+      "type": "warning",
+      "label": "Falling rocks",
+      "image": "assets/driving-pdf/warning-falling-rocks.png",
+      "source": "Driving.pdf p.95"
+    },
+    {
+      "type": "warning",
+      "label": "Loose gravel",
+      "image": "assets/driving-pdf/warning-loose-gravel.png",
+      "source": "Driving.pdf p.95"
+    },
+    {
+      "type": "warning",
+      "label": "Junction ahead",
+      "image": "assets/driving-pdf/warning-junction-ahead.png",
+      "source": "Driving.pdf p.95"
+    },
+    {
+      "type": "warning",
+      "label": "T-junction ahead",
+      "image": "assets/driving-pdf/warning-t-junction-ahead.png",
+      "source": "Driving.pdf p.95"
+    },
+    {
+      "type": "warning",
+      "label": "Give way",
+      "image": "assets/driving-pdf/warning-give-way.png",
+      "source": "Driving.pdf p.95"
+    },
+    {
+      "type": "warning",
+      "label": "Traffic merging from left",
+      "image": "assets/driving-pdf/warning-traffic-merging-from-left.png",
+      "source": "Driving.pdf p.96"
+    },
+    {
+      "type": "warning",
+      "label": "Traffic merging from right",
+      "image": "assets/driving-pdf/warning-traffic-merging-from-right.png",
+      "source": "Driving.pdf p.96"
+    },
+    {
+      "type": "warning",
+      "label": "Roundabout ahead",
+      "image": "assets/driving-pdf/warning-roundabout-ahead.png",
+      "source": "Driving.pdf p.96"
+    },
+    {
+      "type": "warning",
+      "label": "Traffic lights ahead",
+      "image": "assets/driving-pdf/warning-traffic-lights-ahead.png",
+      "source": "Driving.pdf p.96"
+    },
+    {
+      "type": "warning",
+      "label": "Level crossing with barrier",
+      "image": "assets/driving-pdf/warning-level-crossing-with-barrier.png",
+      "source": "Driving.pdf p.96"
+    },
+    {
+      "type": "warning",
+      "label": "Level crossing without barrier",
+      "image": "assets/driving-pdf/warning-level-crossing-without-barrier.png",
+      "source": "Driving.pdf p.96"
+    },
+    {
+      "type": "warning",
+      "label": "Low flying aircraft",
+      "image": "assets/driving-pdf/warning-low-flying-aircraft.png",
+      "source": "Driving.pdf p.96"
+    },
+    {
+      "type": "warning",
+      "label": "Strong cross winds",
+      "image": "assets/driving-pdf/warning-strong-cross-winds.png",
+      "source": "Driving.pdf p.96"
+    },
+    {
+      "type": "warning",
+      "label": "Horses crossing",
+      "image": "assets/driving-pdf/warning-horses-crossing.png",
+      "source": "Driving.pdf p.96"
+    },
+    {
+      "type": "warning",
+      "label": "Children",
+      "image": "assets/driving-pdf/warning-children.png",
+      "source": "Driving.pdf p.97"
+    },
+    {
+      "type": "warning",
+      "label": "Two-way traffic ahead",
+      "image": "assets/driving-pdf/warning-two-way-traffic-ahead.png",
+      "source": "Driving.pdf p.97"
+    },
+    {
+      "type": "warning",
+      "label": "Two-way traffic crosses one-way road",
+      "image": "assets/driving-pdf/warning-two-way-traffic-crosses-one-way-road.png",
+      "source": "Driving.pdf p.97"
+    },
+    {
+      "type": "warning",
+      "label": "U-turn ahead",
+      "image": "assets/driving-pdf/warning-u-turn-ahead.png",
+      "source": "Driving.pdf p.97"
+    },
+    {
+      "type": "warning",
+      "label": "Hazard ahead",
+      "image": "assets/driving-pdf/warning-hazard-ahead.png",
+      "source": "Driving.pdf p.97"
+    },
+    {
+      "type": "warning",
+      "label": "Crossroad ahead",
+      "image": "assets/driving-pdf/warning-crossroad-ahead.png",
+      "source": "Driving.pdf p.97"
+    },
+    {
+      "type": "mandatory",
+      "label": "No entry",
+      "image": "assets/driving-pdf/mandatory-no-entry.png",
+      "source": "Driving.pdf p.97"
+    },
+    {
+      "type": "mandatory",
+      "label": "Stop and give way",
+      "image": "assets/driving-pdf/mandatory-stop-and-give-way.png",
+      "source": "Driving.pdf p.99"
+    },
+    {
+      "type": "mandatory",
+      "label": "Give priority to oncoming traffic",
+      "image": "assets/driving-pdf/mandatory-give-priority-to-oncoming-traffic.png",
+      "source": "Driving.pdf p.99"
+    },
+    {
+      "type": "mandatory",
+      "label": "No right turn",
+      "image": "assets/driving-pdf/mandatory-no-right-turn.png",
+      "source": "Driving.pdf p.99"
+    },
+    {
+      "type": "mandatory",
+      "label": "No left turn",
+      "image": "assets/driving-pdf/mandatory-no-left-turn.png",
+      "source": "Driving.pdf p.99"
+    },
+    {
+      "type": "mandatory",
+      "label": "No U-turn",
+      "image": "assets/driving-pdf/mandatory-no-u-turn.png",
+      "source": "Driving.pdf p.99"
+    },
+    {
+      "type": "mandatory",
+      "label": "No stopping",
+      "image": "assets/driving-pdf/mandatory-no-stopping.png",
+      "source": "Driving.pdf p.99"
+    },
+    {
+      "type": "mandatory",
+      "label": "No parking",
+      "image": "assets/driving-pdf/mandatory-no-parking.png",
+      "source": "Driving.pdf p.99"
+    },
+    {
+      "type": "mandatory",
+      "label": "Maximum speed",
+      "image": "assets/driving-pdf/mandatory-maximum-speed.png",
+      "source": "Driving.pdf p.100"
+    },
+    {
+      "type": "mandatory",
+      "label": "No horn",
+      "image": "assets/driving-pdf/mandatory-no-horn.png",
+      "source": "Driving.pdf p.100"
+    },
+    {
+      "type": "mandatory",
+      "label": "No goods vehicles",
+      "image": "assets/driving-pdf/mandatory-no-goods-vehicles.png",
+      "source": "Driving.pdf p.98"
+    },
+    {
+      "type": "mandatory",
+      "label": "No cycling",
+      "image": "assets/driving-pdf/mandatory-no-cycling.png",
+      "source": "Driving.pdf p.98"
+    },
+    {
+      "type": "mandatory",
+      "label": "No pedestrians",
+      "image": "assets/driving-pdf/mandatory-no-pedestrians.png",
+      "source": "Driving.pdf p.98"
+    },
+    {
+      "type": "mandatory",
+      "label": "Right only",
+      "image": "assets/driving-pdf/mandatory-right-only.png",
+      "source": "Driving.pdf p.100"
+    },
+    {
+      "type": "mandatory",
+      "label": "Left only",
+      "image": "assets/driving-pdf/mandatory-left-only.png",
+      "source": "Driving.pdf p.100"
+    },
+    {
+      "type": "mandatory",
+      "label": "Ahead only",
+      "image": "assets/driving-pdf/mandatory-ahead-only.png",
+      "source": "Driving.pdf p.100"
+    },
+    {
+      "type": "mandatory",
+      "label": "Turn right or continue straight",
+      "image": "assets/driving-pdf/mandatory-turn-right-or-continue-straight.png",
+      "source": "Driving.pdf p.101"
+    },
+    {
+      "type": "mandatory",
+      "label": "Turn left or continue straight",
+      "image": "assets/driving-pdf/mandatory-turn-left-or-continue-straight.png",
+      "source": "Driving.pdf p.101"
+    },
+    {
+      "type": "mandatory",
+      "label": "Turn left or right",
+      "image": "assets/driving-pdf/mandatory-turn-left-or-right.png",
+      "source": "Driving.pdf p.101"
+    },
+    {
+      "type": "mandatory",
+      "label": "Pass left or right",
+      "image": "assets/driving-pdf/mandatory-pass-left-or-right.png",
+      "source": "Driving.pdf p.101"
+    },
+    {
+      "type": "mandatory",
+      "label": "Roundabout mandatory",
+      "image": "assets/driving-pdf/mandatory-roundabout-mandatory.png",
+      "source": "Driving.pdf p.101"
+    },
+    {
+      "type": "mandatory",
+      "label": "Pedestrians only",
+      "image": "assets/driving-pdf/mandatory-pedestrians-only.png",
+      "source": "Driving.pdf p.101"
+    },
+    {
+      "type": "mandatory",
+      "label": "Cycle route",
+      "image": "assets/driving-pdf/mandatory-cycle-route.png",
+      "source": "Driving.pdf p.101"
+    },
+    {
+      "type": "mandatory",
+      "label": "Minimum speed",
+      "image": "assets/driving-pdf/mandatory-minimum-speed.png",
+      "source": "Driving.pdf p.102"
+    },
+    {
+      "type": "informative",
+      "label": "Beginning of motorway",
+      "image": "assets/driving-pdf/informative-beginning-of-motorway.png",
+      "source": "Driving.pdf p.102"
+    },
+    {
+      "type": "informative",
+      "label": "End of motorway",
+      "image": "assets/driving-pdf/informative-end-of-motorway.png",
+      "source": "Driving.pdf p.102"
+    },
+    {
+      "type": "informative",
+      "label": "Primary road",
+      "image": "assets/driving-pdf/informative-primary-road.png",
+      "source": "Driving.pdf p.102"
+    },
+    {
+      "type": "informative",
+      "label": "End of primary road",
+      "image": "assets/driving-pdf/informative-end-of-primary-road.png",
+      "source": "Driving.pdf p.103"
+    },
+    {
+      "type": "informative",
+      "label": "One-way traffic",
+      "image": "assets/driving-pdf/informative-one-way-traffic.png",
+      "source": "Driving.pdf p.103"
+    },
+    {
+      "type": "informative",
+      "label": "No through road",
+      "image": "assets/driving-pdf/informative-no-through-road.png",
+      "source": "Driving.pdf p.103"
+    },
+    {
+      "type": "informative",
+      "label": "Parking",
+      "image": "assets/driving-pdf/informative-parking.png",
+      "source": "Driving.pdf p.103"
+    },
+    {
+      "type": "informative",
+      "label": "Humps ahead",
+      "image": "assets/driving-pdf/informative-humps-ahead.png",
+      "source": "Driving.pdf p.103"
+    },
+    {
+      "type": "informative",
+      "label": "Police station",
+      "image": "assets/driving-pdf/informative-police-station.png",
+      "source": "Driving.pdf p.104"
+    },
+    {
+      "type": "informative",
+      "label": "Refreshments",
+      "image": "assets/driving-pdf/informative-refreshments.png",
+      "source": "Driving.pdf p.104"
+    },
+    {
+      "type": "informative",
+      "label": "Restaurants",
+      "image": "assets/driving-pdf/informative-restaurants.png",
+      "source": "Driving.pdf p.104"
+    },
+    {
+      "type": "informative",
+      "label": "Hotels",
+      "image": "assets/driving-pdf/informative-hotels.png",
+      "source": "Driving.pdf p.104"
+    },
+    {
+      "type": "informative",
+      "label": "Clinic",
+      "image": "assets/driving-pdf/informative-clinic.png",
+      "source": "Driving.pdf p.104"
+    },
+    {
+      "type": "informative",
+      "label": "Hospital",
+      "image": "assets/driving-pdf/informative-hospital.png",
+      "source": "Driving.pdf p.104"
+    },
+    {
+      "type": "informative",
+      "label": "Pedestrian crossing",
+      "image": "assets/driving-pdf/informative-pedestrian-crossing.png",
+      "source": "Driving.pdf p.105"
+    },
+    {
+      "type": "warning",
+      "label": "Road construction ahead",
+      "image": "assets/driving-pdf/warning-road-construction-ahead.png",
+      "source": "Driving.pdf p.106"
+    },
+    {
+      "type": "warning",
+      "label": "Detour ahead",
+      "image": "assets/driving-pdf/warning-detour-ahead.png",
+      "source": "Driving.pdf p.106"
+    },
+    {
+      "type": "warning",
+      "label": "Two-lane traffic ahead",
+      "image": "assets/driving-pdf/warning-two-lane-traffic-ahead.png",
+      "source": "Driving.pdf p.106"
+    },
+    {
+      "type": "warning",
+      "label": "Single lane ahead",
+      "image": "assets/driving-pdf/warning-single-lane-ahead.png",
+      "source": "Driving.pdf p.106"
+    },
+    {
+      "type": "warning",
+      "label": "Left lane closed",
+      "image": "assets/driving-pdf/warning-left-lane-closed.png",
+      "source": "Driving.pdf p.106"
+    },
+    {
+      "type": "warning",
+      "label": "Right lane closed",
+      "image": "assets/driving-pdf/warning-right-lane-closed.png",
+      "source": "Driving.pdf p.106"
+    },
+    {
+      "type": "warning",
+      "label": "Keep right at roadwork",
+      "image": "assets/driving-pdf/warning-keep-right-at-roadwork.png",
+      "source": "Driving.pdf p.107"
+    },
+    {
+      "type": "warning",
+      "label": "Crossing ahead at roadwork",
+      "image": "assets/driving-pdf/warning-crossing-ahead-at-roadwork.png",
+      "source": "Driving.pdf p.107"
+    },
+    {
+      "type": "warning",
+      "label": "Speed at roadwork",
+      "image": "assets/driving-pdf/warning-speed-at-roadwork.png",
+      "source": "Driving.pdf p.107"
+    }
+  ],
+  "policeSignals": [
+    {
+      "label": "Beckoning vehicles from the side",
+      "desc": "Vehicles approaching from the left may continue.",
+      "image": "assets/driving-pdf/police-beckoning-vehicles-from-the-side.png",
+      "source": "Driving.pdf p.12"
+    },
+    {
+      "label": "Slow down",
+      "desc": "If given from a police car, follow the car and pull over behind it when it stops.",
+      "image": "assets/driving-pdf/police-slow-down.png",
+      "source": "Driving.pdf p.12"
+    },
+    {
+      "label": "All vehicles must stop",
+      "desc": "When the police officer raises his hand, all vehicles must stop.",
+      "image": "assets/driving-pdf/police-all-vehicles-must-stop.png",
+      "source": "Driving.pdf p.12"
+    },
+    {
+      "label": "Behind and ahead must stop",
+      "desc": "Vehicles approaching from behind and ahead must stop; traffic from left and right may continue.",
+      "image": "assets/driving-pdf/police-behind-and-ahead-must-stop.png",
+      "source": "Driving.pdf p.12"
+    },
+    {
+      "label": "Police car stop signal",
+      "desc": "Blue and red flashing lights behind you mean pull over to the roadside and stop immediately.",
+      "image": "assets/driving-pdf/police-police-car-stop-signal.png",
+      "source": "Driving.pdf p.12"
+    }
+  ]
+};

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">UAE PASS icon</title>
+  <desc id="desc">A green UAE PASS style fingerprint icon.</desc>
+  <rect width="512" height="512" rx="86" fill="#12a772"/>
+  <g fill="none" stroke="#ffffff" stroke-width="19" stroke-linecap="round">
+    <path d="M122 171c36-41 85-62 146-62 51 0 95 15 132 45"/>
+    <path d="M98 239c8-34 25-62 51-83"/>
+    <path d="M127 345c-18-50-13-96 14-137 28-43 71-65 128-65 28 0 55 7 80 21"/>
+    <path d="M160 391c-30-64-22-123 25-177 24-27 55-41 93-41"/>
+    <path d="M207 417c-34-53-40-103-18-150 17-36 44-58 80-67"/>
+    <path d="M247 395c-20-39-22-76-7-111 8-18 22-29 42-34"/>
+    <path d="M310 397c-41-18-62-49-62-94"/>
+    <path d="M350 359c-46 4-78-18-95-65"/>
+    <path d="M383 303c-1-40-14-72-41-96"/>
+    <path d="M321 238c14 21 20 45 18 72"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="97" cy="153" r="10"/>
+    <circle cx="398" cy="198" r="10"/>
+    <circle cx="402" cy="266" r="10"/>
+    <circle cx="310" cy="212" r="10"/>
+  </g>
+</svg>
