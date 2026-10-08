@@ -2,6 +2,31 @@
 
 A static website that brings Abu Dhabi driving-license guidance, study material, and practice questions into one experience. It includes a process overview, study articles, mock exams, and downloadable cheat sheets.
 
+## Preview
+
+![Direct Drive Abu Dhabi driving-license guide landing page](docs/images/direct-drive-home.png)
+
+<details>
+<summary>More previews: license process, practice tests, study references, and mobile</summary>
+
+### License process
+
+![Direct Drive ten-stage driving-license process overview](docs/images/direct-drive-process.png)
+
+### Practice tests
+
+![Direct Drive question modules and practice progress dashboard](docs/images/direct-drive-practice.png)
+
+### Study references
+
+![Direct Drive road-sign and rule cheat sheets](docs/images/direct-drive-cheatsheets.png)
+
+### Mobile
+
+<img src="docs/images/direct-drive-mobile.png" alt="Direct Drive mobile landing page" width="320" />
+
+</details>
+
 ## Pages
 
 - `Wajha.html`: main landing page; `index.html` redirects here.
